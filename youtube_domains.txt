@@ -7,5 +7,6 @@ rr4---sn-uhvcpaxoa-xpoe.googlevideo.com
 rr5---sn-uhvcpaxoa-5hne.googlevideo.com
 rr5---sn-uhvcpaxoa-bg9e.googlevideo.com
 rr6---sn-uhvcpaxoa-xpoe.googlevideo.com
+studio.youtube.com
 www.youtube.com
 yt3.ggpht.com
