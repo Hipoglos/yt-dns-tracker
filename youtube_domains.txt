@@ -1,4 +1,5 @@
 accounts.youtube.com
+consent.youtube.com
 edgedl.me.gvt1.com
 effects.usercontent.youtube.com
 eligibility-panelresearch.googlevideo.com
