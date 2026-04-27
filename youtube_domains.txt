@@ -1,4 +1,5 @@
 accounts.youtube.com
+edgedl.me.gvt1.com
 effects.usercontent.youtube.com
 i.ytimg.com
 i1.ytimg.com
@@ -21,6 +22,7 @@ rr1---sn-4g5ednky.googlevideo.com
 rr1---sn-4g5ednrl.googlevideo.com
 rr1---sn-4g5ednse.googlevideo.com
 rr1---sn-4g5lzne6.googlevideo.com
+rr1---sn-4g5lzned.googlevideo.com
 rr1---sn-4g5lzner.googlevideo.com
 rr1---sn-4g5lzney.googlevideo.com
 rr1---sn-4g5lznld.googlevideo.com
@@ -367,6 +369,7 @@ rr5---sn-4g5edndl.googlevideo.com
 rr5---sn-4g5ednk6.googlevideo.com
 rr5---sn-4g5ednkd.googlevideo.com
 rr5---sn-4g5ednkl.googlevideo.com
+rr5---sn-4g5ednkr.googlevideo.com
 rr5---sn-4g5ednly.googlevideo.com
 rr5---sn-4g5ednrl.googlevideo.com
 rr5---sn-4g5ednrs.googlevideo.com
@@ -390,6 +393,7 @@ rr5---sn-5hnednsz.googlevideo.com
 rr5---sn-5hnekn7d.googlevideo.com
 rr5---sn-5hnekn7l.googlevideo.com
 rr5---sn-5hnekne6.googlevideo.com
+rr5---sn-5hneknes.googlevideo.com
 rr5---sn-aj4g55-5v.googlevideo.com
 rr5---sn-ajnv45-5i.googlevideo.com
 rr5---sn-nv47ln6e.googlevideo.com
