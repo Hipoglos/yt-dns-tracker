@@ -1,0 +1,11 @@
+services:
+  yt-dns-tracker:
+    build: ./app
+    container_name: yt-dns-tracker
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - /srv/yt-dns-tracker/data:/data
+    environment:
+      - PYTHONUNBUFFERED=1

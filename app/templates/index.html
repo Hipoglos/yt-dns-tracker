@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YT-DNS Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0c0f;
+    --panel: #0f1318;
+    --border: #1e2530;
+    --border-bright: #2d3a4a;
+    --accent: #00d4ff;
+    --accent2: #ff4d6d;
+    --accent3: #39ff14;
+    --text: #c8d6e5;
+    --text-dim: #5a6a7a;
+    --text-bright: #eaf4ff;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    min-height: 100vh;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0,212,255,0.06) 0%, transparent 60%),
+      repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(30,37,48,0.4) 39px, rgba(30,37,48,0.4) 40px);
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 18px 32px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: rgba(15,19,24,0.95);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--accent);
+    letter-spacing: -0.5px;
+  }
+  .logo span { color: var(--accent2); }
+
+  .badge {
+    font-size: 10px;
+    padding: 2px 8px;
+    border: 1px solid var(--border-bright);
+    color: var(--text-dim);
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .status-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--accent3);
+    box-shadow: 0 0 8px var(--accent3);
+    margin-left: auto;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%,100% { opacity:1; } 50% { opacity:0.4; }
+  }
+
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 24px;
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    gap: 20px;
+  }
+
+  .col-left { display: flex; flex-direction: column; gap: 16px; }
+  .col-right { display: flex; flex-direction: column; gap: 16px; }
+
+  .panel {
+    border: 1px solid var(--border);
+    background: var(--panel);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .panel-header {
+    padding: 10px 16px;
+    background: rgba(30,37,48,0.5);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+  .panel-header .icon { color: var(--accent); font-size: 12px; }
+
+  .panel-body { padding: 20px; }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .stat {
+    border: 1px solid var(--border);
+    padding: 12px;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.2);
+  }
+  .stat-val {
+    font-family: 'Syne', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 10px;
+    color: var(--text-dim);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  .form-group { margin-bottom: 14px; }
+  label {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 5px;
+  }
+
+  input[type=text], input[type=password], input[type=number], input[type=url] {
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    border: 1px solid var(--border);
+    color: var(--text-bright);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  input:focus { border-color: var(--accent); }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: #000;
+  }
+  .btn-primary:hover { background: #33dcff; transform: translateY(-1px); }
+  .btn-danger {
+    background: transparent;
+    border: 1px solid var(--accent2);
+    color: var(--accent2);
+  }
+  .btn-danger:hover { background: rgba(255,77,109,0.1); }
+  .btn-success {
+    background: var(--accent3);
+    color: #000;
+  }
+  .btn-success:hover { background: #5aff3a; transform: translateY(-1px); }
+  .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none !important; }
+
+  .btn-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+
+  .log-box {
+    background: #000;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 12px;
+    height: 280px;
+    overflow-y: auto;
+    font-size: 11px;
+    line-height: 1.7;
+    color: #7a9ab0;
+  }
+  .log-box .ok { color: var(--accent3); }
+  .log-box .err { color: var(--accent2); }
+  .log-box .info { color: var(--accent); }
+
+  .domain-list {
+    background: #000;
+    border-radius: 3px;
+    height: 320px;
+    overflow-y: auto;
+    font-size: 11px;
+    line-height: 1.8;
+    color: #6a8a9a;
+    padding: 10px 12px;
+  }
+  .domain-list .d { color: var(--text); }
+  .domain-list .d:hover { color: var(--accent); cursor: default; }
+
+  .last-run {
+    font-size: 11px;
+    color: var(--text-dim);
+    padding: 8px 16px;
+    border-top: 1px solid var(--border);
+  }
+  .last-run span { color: var(--text); }
+
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    padding: 12px 20px;
+    background: var(--panel);
+    border: 1px solid var(--border-bright);
+    border-radius: 4px;
+    font-size: 12px;
+    color: var(--accent3);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.25s;
+    z-index: 999;
+    pointer-events: none;
+  }
+  .toast.show { opacity: 1; transform: translateY(0); }
+  .toast.err { color: var(--accent2); border-color: var(--accent2); }
+
+  .section-title {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 12px;
+  }
+
+  .opnsense-box {
+    background: rgba(0,0,0,0.3);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 3px;
+    padding: 14px;
+    font-size: 11px;
+    line-height: 1.8;
+    color: var(--text-dim);
+  }
+  .opnsense-box code {
+    color: var(--accent3);
+    background: rgba(57,255,20,0.05);
+    padding: 1px 4px;
+    border-radius: 2px;
+  }
+  .opnsense-box strong { color: var(--text); }
+
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border-bright); border-radius: 2px; }
+
+  @media (max-width: 768px) {
+    main { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">YT<span>·</span>DNS</div>
+  <div class="badge">Tracker v1.0</div>
+  <div class="status-dot" id="statusDot" title="Service running"></div>
+</header>
+
+<main>
+  <div class="col-left">
+
+    <!-- Stats -->
+    <div class="panel">
+      <div class="panel-header"><span class="icon">◈</span> Status</div>
+      <div class="stat-grid">
+        <div class="stat">
+          <div class="stat-val" id="statDomains">{{ cfg.domain_count or 0 }}</div>
+          <div class="stat-label">Domains tracked</div>
+        </div>
+        <div class="stat">
+          <div class="stat-val" id="statInterval">{{ cfg.poll_interval_minutes or 30 }}m</div>
+          <div class="stat-label">Poll interval</div>
+        </div>
+      </div>
+      <div class="last-run">
+        Last sync: <span id="lastRun">{{ cfg.last_run or 'Never' }}</span><br>
+        Status: <span id="lastStatus">{{ cfg.last_status or '—' }}</span>
+      </div>
+    </div>
+
+    <!-- Config -->
+    <div class="panel">
+      <div class="panel-header"><span class="icon">⚙</span> Configuration</div>
+      <div class="panel-body">
+        <div class="form-group">
+          <label>AdGuard Home URL</label>
+          <input type="url" id="adguard_url" placeholder="http://192.168.1.x:3000" value="{{ cfg.adguard_url }}">
+        </div>
+        <div class="form-group">
+          <label>AdGuard Username</label>
+          <input type="text" id="adguard_user" placeholder="admin" value="{{ cfg.adguard_user }}">
+        </div>
+        <div class="form-group">
+          <label>AdGuard Password</label>
+          <input type="password" id="adguard_pass" placeholder="••••••••">
+        </div>
+        <div class="form-group">
+          <label>GitHub Token (repo scope)</label>
+          <input type="password" id="github_token" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
+        </div>
+        <div class="form-group">
+          <label>GitHub Repo (owner/repo)</label>
+          <input type="text" id="github_repo" placeholder="yourname/yt-domains" value="{{ cfg.github_repo }}">
+        </div>
+        <div class="form-group">
+          <label>File path in repo</label>
+          <input type="text" id="github_file_path" value="{{ cfg.github_file_path or 'youtube_domains.txt' }}">
+        </div>
+        <div class="form-group">
+          <label>Poll interval (minutes)</label>
+          <input type="number" id="poll_interval_minutes" min="5" max="1440" value="{{ cfg.poll_interval_minutes or 30 }}">
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-primary" onclick="saveConfig()">▸ Save Config</button>
+          <button class="btn btn-success" onclick="triggerSync()">↑ Sync Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- OPNsense hint -->
+    <div class="panel">
+      <div class="panel-header"><span class="icon">⛭</span> OPNsense Alias URL</div>
+      <div class="panel-body">
+        <div class="opnsense-box">
+          <strong>Firewall → Aliases → + New</strong><br>
+          Type: <code>URL Table (IPs)</code> → use <strong>URL Table (Hosts)</strong><br><br>
+          URL: <code id="ghRawUrl">https://raw.githubusercontent.com/OWNER/REPO/main/youtube_domains.txt</code><br><br>
+          Refresh every <code>12h</code> — then assign the alias to your tunnel policy route.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-right">
+
+    <!-- Logs -->
+    <div class="panel">
+      <div class="panel-header">
+        <span class="icon">▶</span> Sync Log
+        <button class="btn btn-danger" style="margin-left:auto;padding:4px 10px;font-size:10px;" onclick="refreshLogs()">↺ Refresh</button>
+      </div>
+      <div class="log-box" id="logBox">
+        {% for line in logs %}
+          <div class="{% if 'error' in line.lower() or 'Error' in line %}err{% elif 'complete' in line.lower() or 'OK' in line %}ok{% else %}info{% endif %}">{{ line.rstrip() }}</div>
+        {% else %}
+          <div>No logs yet. Configure and run a sync.</div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Domains -->
+    <div class="panel">
+      <div class="panel-header">
+        <span class="icon">◉</span> Tracked Domains
+        <span id="domainCount" style="margin-left:8px;color:var(--accent);font-size:11px;">{{ cfg.domain_count or 0 }}</span>
+        <button class="btn btn-danger" style="margin-left:auto;padding:4px 10px;font-size:10px;" onclick="clearDomains()">✕ Clear cache</button>
+      </div>
+      <div class="domain-list" id="domainList">
+        Loading…
+      </div>
+    </div>
+
+    <!-- Patterns info -->
+    <div class="panel">
+      <div class="panel-header"><span class="icon">◆</span> Tracked Patterns</div>
+      <div class="panel-body">
+        <div class="opnsense-box" style="border-left-color:var(--accent2);">
+          The collector matches: <code>*.youtube.com</code> · <code>*.ytimg.com</code> · <code>*.googlevideo.com</code> · <code>*.ggpht.com</code> · <code>*.gvt1.com</code> · <code>*.youtubei.googleapis.com</code> · <code>youtu.be</code> · and dynamic CDN nodes like <code>rr3---sn-xxx.googlevideo.com</code>.<br><br>
+          Domains are <strong>accumulated</strong> across syncs — the list only grows unless you clear the cache manually.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+function showToast(msg, err=false) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast show' + (err ? ' err' : '');
+  setTimeout(() => t.className = 'toast', 2800);
+}
+
+async function saveConfig() {
+  const fields = ['adguard_url','adguard_user','adguard_pass','github_token',
+                  'github_repo','github_file_path','poll_interval_minutes'];
+  const data = {};
+  fields.forEach(f => {
+    const el = document.getElementById(f);
+    if (el && el.value) data[f] = el.value;
+  });
+  const r = await fetch('/api/config', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+  const j = await r.json();
+  if (j.ok) {
+    showToast('✓ Config saved');
+    document.getElementById('statInterval').textContent = (data.poll_interval_minutes || 30) + 'm';
+    updateGhUrl();
+  } else showToast('Error saving config', true);
+}
+
+async function triggerSync() {
+  const btn = event.target;
+  btn.disabled = true;
+  btn.textContent = '⟳ Syncing…';
+  const r = await fetch('/api/sync', {method:'POST'});
+  const j = await r.json();
+  showToast(j.message || 'Sync started');
+  setTimeout(() => { btn.disabled=false; btn.textContent='↑ Sync Now'; refreshAll(); }, 4000);
+}
+
+async function refreshLogs() {
+  const r = await fetch('/api/logs');
+  const j = await r.json();
+  const box = document.getElementById('logBox');
+  if (!j.lines.length) { box.innerHTML = '<div>No logs yet.</div>'; return; }
+  box.innerHTML = j.lines.map(l => {
+    const cl = l.toLowerCase().includes('error') ? 'err' : l.toLowerCase().includes('complete') || l.includes('OK') ? 'ok' : 'info';
+    return `<div class="${cl}">${escHtml(l.trimEnd())}</div>`;
+  }).join('');
+  box.scrollTop = box.scrollHeight;
+}
+
+async function refreshDomains() {
+  const r = await fetch('/api/domains');
+  const j = await r.json();
+  const box = document.getElementById('domainList');
+  document.getElementById('domainCount').textContent = j.count;
+  document.getElementById('statDomains').textContent = j.count;
+  if (!j.domains.length) { box.innerHTML = '<div style="color:var(--text-dim)">No domains yet — run a sync.</div>'; return; }
+  box.innerHTML = j.domains.map(d => `<div class="d">${escHtml(d)}</div>`).join('');
+}
+
+async function refreshStatus() {
+  const r = await fetch('/api/config');
+  const j = await r.json();
+  if (j.last_run) document.getElementById('lastRun').textContent = j.last_run.replace('T',' ').substring(0,19);
+  if (j.last_status) document.getElementById('lastStatus').textContent = j.last_status;
+}
+
+async function clearDomains() {
+  if (!confirm('Clear the local domain cache? GitHub file will be updated on next sync.')) return;
+  await fetch('/api/clear_domains', {method:'POST'});
+  showToast('Cache cleared');
+  refreshDomains();
+}
+
+function updateGhUrl() {
+  const repo = document.getElementById('github_repo').value || 'OWNER/REPO';
+  const path = document.getElementById('github_file_path').value || 'youtube_domains.txt';
+  document.getElementById('ghRawUrl').textContent =
+    `https://raw.githubusercontent.com/${repo}/main/${path}`;
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function refreshAll() { refreshLogs(); refreshDomains(); refreshStatus(); }
+
+document.getElementById('github_repo').addEventListener('input', updateGhUrl);
+document.getElementById('github_file_path').addEventListener('input', updateGhUrl);
+
+// Auto-refresh every 15s
+refreshAll();
+setInterval(refreshAll, 15000);
+updateGhUrl();
+</script>
+</body>
+</html>
