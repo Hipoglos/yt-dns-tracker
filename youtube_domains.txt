@@ -244,6 +244,7 @@ rr3---sn-4g5lznsl.googlevideo.com
 rr3---sn-4g5lznss.googlevideo.com
 rr3---sn-4g5lznsz.googlevideo.com
 rr3---sn-5hne6nsd.googlevideo.com
+rr3---sn-5hne6nsy.googlevideo.com
 rr3---sn-5hne6nz6.googlevideo.com
 rr3---sn-5hne6nzd.googlevideo.com
 rr3---sn-5hne6nzy.googlevideo.com
@@ -268,6 +269,7 @@ rr3---sn-nv47lnsy.googlevideo.com
 rr3---sn-nv47zn7y.googlevideo.com
 rr3---sn-nv47zne7.googlevideo.com
 rr3---sn-nv47znel.googlevideo.com
+rr3---sn-oj5hn5-55.googlevideo.com
 rr3---sn-oj5hn5-5v.googlevideo.com
 rr3---sn-u15hn5-59.googlevideo.com
 rr3---sn-u15hn5-5v.googlevideo.com
