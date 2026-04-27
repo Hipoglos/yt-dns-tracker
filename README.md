@@ -30,10 +30,10 @@ Then open **http://\<your-vm-ip\>:8080** and configure:
 
 | Field | Example |
 |---|---|
-| AdGuard Home URL | `http://192.168.1.5:3000` |
+| AdGuard Home URL | `http://AdGuard_IP` |
 | AdGuard username/password | your AdGuard credentials |
 | GitHub Token | a PAT with `repo` scope |
-| GitHub Repo | `Hipoglos/yt-dns-tracker` |
+| GitHub Repo | `Your_Repo/yt-dns-tracker` |
 | File path | `youtube_domains.txt` |
 | Poll interval | `30` (minutes) |
 
@@ -44,7 +44,7 @@ Hit **Sync Now** — done.
 1. **Firewall → Aliases → Add**
    - Type: `URL Table (Hosts)`
    - Name: `youtube_domains`
-   - URL: `https://raw.githubusercontent.com/Hipoglos/yt-dns-tracker/main/youtube_domains.txt`
+   - URL: `https://raw.githubusercontent.com/Your_Repo/yt-dns-tracker/main/youtube_domains.txt`
    - Refresh: `43200` (12 h)
 
 2. **Firewall → Rules** — create a rule matching `youtube_domains` alias, set gateway to your tunnel interface.
