@@ -6,12 +6,15 @@ import logging
 import re
 import threading
 import requests
+import urllib3
 from datetime import datetime
 from flask import Flask, render_template, request, jsonify
 from apscheduler.schedulers.background import BackgroundScheduler
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 app = Flask(__name__)
 CONFIG_FILE = "/data/config.json"
@@ -91,6 +94,7 @@ def fetch_adguard_domains(cfg) -> set:
                 params={"limit": limit, "offset": offset, "response_status": "all"},
                 auth=auth,
                 timeout=15,
+                verify=False,
             )
             resp.raise_for_status()
             data = resp.json()
