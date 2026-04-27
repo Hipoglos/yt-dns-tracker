@@ -135,6 +135,7 @@ rr2---sn-4g5lzned.googlevideo.com
 rr2---sn-4g5lzner.googlevideo.com
 rr2---sn-4g5lznl7.googlevideo.com
 rr2---sn-4g5lznld.googlevideo.com
+rr2---sn-4g5lznlz.googlevideo.com
 rr2---sn-4g5lznse.googlevideo.com
 rr2---sn-4g5lznsl.googlevideo.com
 rr2---sn-4g5lznss.googlevideo.com
@@ -174,6 +175,7 @@ rr2.sn-4g5edn6k.googlevideo.com
 rr2.sn-4g5edn6y.googlevideo.com
 rr2.sn-4g5ednd7.googlevideo.com
 rr2.sn-4g5edndd.googlevideo.com
+rr2.sn-4g5ednde.googlevideo.com
 rr2.sn-4g5edndk.googlevideo.com
 rr2.sn-4g5ednkd.googlevideo.com
 rr2.sn-4g5ednkl.googlevideo.com
@@ -189,6 +191,7 @@ rr2.sn-4g5lzned.googlevideo.com
 rr2.sn-4g5lzner.googlevideo.com
 rr2.sn-4g5lznl7.googlevideo.com
 rr2.sn-4g5lznld.googlevideo.com
+rr2.sn-4g5lznlz.googlevideo.com
 rr2.sn-4g5lznse.googlevideo.com
 rr2.sn-4g5lznsl.googlevideo.com
 rr2.sn-4g5lznss.googlevideo.com
@@ -492,6 +495,7 @@ rr5.sn-5hnednsz.googlevideo.com
 rr5.sn-5hnekn7d.googlevideo.com
 rr5.sn-5hnekn7l.googlevideo.com
 rr5.sn-5hnekne6.googlevideo.com
+rr5.sn-5hneknee.googlevideo.com
 rr5.sn-5hneknes.googlevideo.com
 rr5.sn-aj4g55-5t.googlevideo.com
 rr5.sn-aj4g55-5v.googlevideo.com
