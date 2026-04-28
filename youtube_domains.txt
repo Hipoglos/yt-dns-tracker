@@ -494,6 +494,7 @@ rr3.sn-uhvcpaxoa-guhe.gvt1.com
 rr3.sn-uhvcpaxoa-xpoe.googlevideo.com
 rr4---sn-4g5e6ns6.gvt1.com
 rr4---sn-4g5e6nz7.googlevideo.com
+rr4---sn-4g5e6nzz.googlevideo.com
 rr4---sn-4g5edn6k.googlevideo.com
 rr4---sn-4g5edn6y.googlevideo.com
 rr4---sn-4g5ednde.googlevideo.com
