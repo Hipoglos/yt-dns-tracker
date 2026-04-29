@@ -182,6 +182,7 @@ rr1.sn-u14g55-5c.googlevideo.com
 rr1.sn-u15hn5-59.googlevideo.com
 rr1.sn-u15hn5-5v.googlevideo.com
 rr1.sn-uhvcpaxoa-5hne.googlevideo.com
+rr1.sn-uhvcpaxoa-5hne.gvt1.com
 rr1.sn-uhvcpaxoa-bg9e.googlevideo.com
 rr1.sn-uhvcpaxoa-bg9e.gvt1.com
 rr1.sn-uhvcpaxoa-guhe.googlevideo.com
