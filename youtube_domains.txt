@@ -778,6 +778,7 @@ rr5.sn-4g5ednr7.gvt1.com
 rr5.sn-4g5ednrl.googlevideo.com
 rr5.sn-4g5ednrs.googlevideo.com
 rr5.sn-4g5ednrz.googlevideo.com
+rr5.sn-4g5ednsd.gvt1.com
 rr5.sn-4g5ednse.googlevideo.com
 rr5.sn-4g5ednsl.googlevideo.com
 rr5.sn-4g5ednsz.googlevideo.com
