@@ -39,6 +39,9 @@ Then open **http://\<your-vm-ip\>:8080** and configure:
 
 Hit **Sync Now** — done.
 
+## Dashboard
+<img width="1101" height="1234" alt="image" src="https://github.com/user-attachments/assets/72c04da4-1d58-4492-8cd1-ff76dff64b0c" />
+
 ## OPNsense configuration
 
 1. **Firewall → Aliases → Add**
