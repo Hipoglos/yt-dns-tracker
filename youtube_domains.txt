@@ -5,6 +5,7 @@ effects.usercontent.youtube.com
 eligibility-panelresearch.googlevideo.com
 i.ytimg.com
 i1.ytimg.com
+i9.ytimg.com
 img.youtube.com
 r1---sn-tn.googlevideo.com
 r1.sn-tn.googlevideo.com
@@ -35,6 +36,7 @@ rr1---sn-4g5ednrz.googlevideo.com
 rr1---sn-4g5edns7.googlevideo.com
 rr1---sn-4g5ednsd.googlevideo.com
 rr1---sn-4g5ednse.googlevideo.com
+rr1---sn-4g5ednz7.googlevideo.com
 rr1---sn-4g5lzne6.googlevideo.com
 rr1---sn-4g5lzned.googlevideo.com
 rr1---sn-4g5lzner.googlevideo.com
@@ -121,6 +123,7 @@ rr1.sn-4g5ednkr.gvt1.com
 rr1.sn-4g5ednky.googlevideo.com
 rr1.sn-4g5ednr7.gvt1.com
 rr1.sn-4g5ednrl.googlevideo.com
+rr1.sn-4g5ednrs.googlevideo.com
 rr1.sn-4g5ednrz.googlevideo.com
 rr1.sn-4g5edns7.googlevideo.com
 rr1.sn-4g5ednsd.googlevideo.com
@@ -312,6 +315,7 @@ rr2.sn-4g5ednr7.googlevideo.com
 rr2.sn-4g5ednr7.gvt1.com
 rr2.sn-4g5ednre.googlevideo.com
 rr2.sn-4g5ednre.gvt1.com
+rr2.sn-4g5ednrl.googlevideo.com
 rr2.sn-4g5ednrs.googlevideo.com
 rr2.sn-4g5ednsd.googlevideo.com
 rr2.sn-4g5ednse.googlevideo.com
@@ -570,6 +574,7 @@ rr4---sn-4g5ednkl.googlevideo.com
 rr4---sn-4g5ednkr.googlevideo.com
 rr4---sn-4g5ednkz.googlevideo.com
 rr4---sn-4g5ednkz.gvt1.com
+rr4---sn-4g5ednld.googlevideo.com
 rr4---sn-4g5ednr7.googlevideo.com
 rr4---sn-4g5ednr7.gvt1.com
 rr4---sn-4g5ednrl.googlevideo.com
@@ -639,6 +644,7 @@ rr4.sn-4g5e6nz7.googlevideo.com
 rr4.sn-4g5e6nzz.googlevideo.com
 rr4.sn-4g5edn6k.googlevideo.com
 rr4.sn-4g5edn6y.googlevideo.com
+rr4.sn-4g5ednd7.googlevideo.com
 rr4.sn-4g5ednde.googlevideo.com
 rr4.sn-4g5edndk.googlevideo.com
 rr4.sn-4g5edndl.googlevideo.com
@@ -700,6 +706,7 @@ rr4.sn-nv47zn7r.googlevideo.com
 rr4.sn-nv47zn7y.googlevideo.com
 rr4.sn-nv47zne7.c.youtube.com
 rr4.sn-nv47zne7.googlevideo.com
+rr4.sn-nv47znee.googlevideo.com
 rr4.sn-oj5hn5-5v.googlevideo.com
 rr4.sn-q4flrnee.googlevideo.com
 rr4.sn-u14g55-5c.googlevideo.com
