@@ -743,6 +743,7 @@ rr5---sn-5hnednss.gvt1.com
 rr5---sn-5hnednsz.googlevideo.com
 rr5---sn-5hnekn7d.googlevideo.com
 rr5---sn-5hnekn7l.googlevideo.com
+rr5---sn-5hnekn7s.googlevideo.com
 rr5---sn-5hnekne6.googlevideo.com
 rr5---sn-5hneknee.googlevideo.com
 rr5---sn-5hneknes.googlevideo.com
@@ -900,6 +901,7 @@ s.youtube.com
 studio.youtube.com
 suggestqueries-clients6.youtube.com
 www.youtube.com
+youtu.be
 youtube.com
 youtube.nl
 youtubei.googleapis.com
