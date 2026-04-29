@@ -235,6 +235,7 @@ rr2---sn-5hneknes.googlevideo.com
 rr2---sn-aj4g55-5t.googlevideo.com
 rr2---sn-aj4g55-5v.googlevideo.com
 rr2---sn-aj4g55-5w.googlevideo.com
+rr2---sn-nv47ln6e.googlevideo.com
 rr2---sn-nv47lns6.googlevideo.com
 rr2---sn-nv47lns7.googlevideo.com
 rr2---sn-nv47lnsk.googlevideo.com
@@ -272,6 +273,7 @@ rr2.sn-4g5edndk.googlevideo.com
 rr2.sn-4g5edndr.gvt1.com
 rr2.sn-4g5edndy.googlevideo.com
 rr2.sn-4g5ednkd.googlevideo.com
+rr2.sn-4g5ednkk.gvt1.com
 rr2.sn-4g5ednkl.googlevideo.com
 rr2.sn-4g5ednkr.googlevideo.com
 rr2.sn-4g5ednky.googlevideo.com
@@ -318,6 +320,7 @@ rr2.sn-5hneknes.googlevideo.com
 rr2.sn-aj4g55-5t.googlevideo.com
 rr2.sn-aj4g55-5v.googlevideo.com
 rr2.sn-aj4g55-5w.googlevideo.com
+rr2.sn-nv47ln6e.googlevideo.com
 rr2.sn-nv47lns6.googlevideo.com
 rr2.sn-nv47lns7.googlevideo.com
 rr2.sn-nv47lnsk.googlevideo.com
