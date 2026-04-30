@@ -61,6 +61,7 @@ rr1---sn-5hne6nz6.gvt1.com
 rr1---sn-5hne6nzd.googlevideo.com
 rr1---sn-5hne6nzk.googlevideo.com
 rr1---sn-5hne6nzs.googlevideo.com
+rr1---sn-5hne6nzy.googlevideo.com
 rr1---sn-5hnednsz.googlevideo.com
 rr1---sn-5hnekn76.googlevideo.com
 rr1---sn-5hnekn7s.googlevideo.com
@@ -688,6 +689,7 @@ rr4.sn-4g5ednr7.gvt1.com
 rr4.sn-4g5ednrl.googlevideo.com
 rr4.sn-4g5ednrs.googlevideo.com
 rr4.sn-4g5ednsd.googlevideo.com
+rr4.sn-4g5ednse.googlevideo.com
 rr4.sn-4g5ednsr.googlevideo.com
 rr4.sn-4g5ednss.googlevideo.com
 rr4.sn-4g5ednsz.googlevideo.com
