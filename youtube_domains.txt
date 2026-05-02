@@ -811,6 +811,7 @@ rr4.sn-4g5ednr7.googlevideo.com
 rr4.sn-4g5ednr7.gvt1.com
 rr4.sn-4g5ednrl.googlevideo.com
 rr4.sn-4g5ednrs.googlevideo.com
+rr4.sn-4g5ednrz.googlevideo.com
 rr4.sn-4g5ednsd.googlevideo.com
 rr4.sn-4g5ednse.googlevideo.com
 rr4.sn-4g5ednsl.googlevideo.com
