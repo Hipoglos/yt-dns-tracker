@@ -7,6 +7,7 @@ i.ytimg.com
 i1.ytimg.com
 i9.ytimg.com
 img.youtube.com
+manifest.googlevideo.com
 r1---sn-tn.googlevideo.com
 r1.sn-tn.googlevideo.com
 r2---sn-tn.googlevideo.com
