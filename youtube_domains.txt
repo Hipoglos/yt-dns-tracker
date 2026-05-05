@@ -639,6 +639,7 @@ rr3.sn-4g5e6nz7.googlevideo.com
 rr3.sn-4g5e6nze.googlevideo.com
 rr3.sn-4g5e6nzs.gvt1.com
 rr3.sn-4g5edn6k.googlevideo.com
+rr3.sn-4g5edn6r.googlevideo.com
 rr3.sn-4g5edn6y.googlevideo.com
 rr3.sn-4g5ednd7.googlevideo.com
 rr3.sn-4g5edndd.googlevideo.com
@@ -1148,6 +1149,7 @@ rr5.sn-4g5lznlk.gvt1.com
 rr5.sn-4g5lznls.googlevideo.com
 rr5.sn-4g5lznlz.googlevideo.com
 rr5.sn-4g5lzns7.googlevideo.com
+rr5.sn-4g5lznsl.googlevideo.com
 rr5.sn-4g5lznss.googlevideo.com
 rr5.sn-4g5lznss.gvt1.com
 rr5.sn-4g5lznsz.googlevideo.com
