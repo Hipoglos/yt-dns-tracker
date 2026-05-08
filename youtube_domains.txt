@@ -10,6 +10,7 @@ img.youtube.com
 manifest.googlevideo.com
 r1---sn-nv47lns6.googlevideo.com
 r1---sn-tn.googlevideo.com
+r1.sn-nv47lns6.googlevideo.com
 r1.sn-tn.googlevideo.com
 r2---sn-8p8v5a-up5l.googlevideo.com
 r2---sn-tn.googlevideo.com
