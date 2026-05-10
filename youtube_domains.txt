@@ -88,6 +88,7 @@ rr1---sn-4g5lznsz.gvt1.com
 rr1---sn-5hne6n6l.googlevideo.com
 rr1---sn-5hne6n6s.googlevideo.com
 rr1---sn-5hne6n6z.googlevideo.com
+rr1---sn-5hne6nsd.googlevideo.com
 rr1---sn-5hne6nsk.googlevideo.com
 rr1---sn-5hne6nsr.googlevideo.com
 rr1---sn-5hne6nsy.googlevideo.com
@@ -128,6 +129,7 @@ rr1---sn-hpa7zn6d.googlevideo.com
 rr1---sn-hpa7zn6s.googlevideo.com
 rr1---sn-hpa7zn6z.googlevideo.com
 rr1---sn-hpa7zn6z.gvt1.com
+rr1---sn-hpa7znsz.googlevideo.com
 rr1---sn-hpa7znzr.googlevideo.com
 rr1---sn-nv47ln6e.c.youtube.com
 rr1---sn-nv47ln6e.googlevideo.com
@@ -272,6 +274,7 @@ rr1.sn-hpa7zn6d.googlevideo.com
 rr1.sn-hpa7zn6s.googlevideo.com
 rr1.sn-hpa7zn6z.googlevideo.com
 rr1.sn-hpa7zn6z.gvt1.com
+rr1.sn-hpa7znsz.googlevideo.com
 rr1.sn-hpa7znzr.googlevideo.com
 rr1.sn-nv47ln6e.c.youtube.com
 rr1.sn-nv47ln6e.googlevideo.com
@@ -1026,6 +1029,7 @@ rr4---sn-uhvcpaxoa-bg9e.googlevideo.com
 rr4---sn-uhvcpaxoa-bg9e.gvt1.com
 rr4---sn-uhvcpaxoa-xpoe.googlevideo.com
 rr4---sn-uhvcpaxoa-xpoe.gvt1.com
+rr4.sn-2ohpa5-55.googlevideo.com
 rr4.sn-2ohpa5-5x.googlevideo.com
 rr4.sn-3c27sn7l.googlevideo.com
 rr4.sn-3c27snee.googlevideo.com
