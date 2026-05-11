@@ -18,6 +18,7 @@ r2---sn-nv47ln6e.googlevideo.com
 r2---sn-tn.googlevideo.com
 r2.sn-1gi7znes.googlevideo.com
 r2.sn-8p8v5a-up5l.googlevideo.com
+r2.sn-nv47ln6e.googlevideo.com
 r2.sn-tn.googlevideo.com
 r3---sn-oj1gi5-5b.googlevideo.com
 r3---sn-tn.googlevideo.com
