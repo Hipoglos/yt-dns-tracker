@@ -1162,7 +1162,9 @@ rr4.sn-4g5e6nss.googlevideo.com
 rr4.sn-4g5e6nsy.googlevideo.com
 rr4.sn-4g5e6nsz.googlevideo.com
 rr4.sn-4g5e6nz7.googlevideo.com
+rr4.sn-4g5e6nze.googlevideo.com
 rr4.sn-4g5e6nzl.googlevideo.com
+rr4.sn-4g5e6nzs.googlevideo.com
 rr4.sn-4g5e6nzz.googlevideo.com
 rr4.sn-4g5edn6k.googlevideo.com
 rr4.sn-4g5edn6r.googlevideo.com
