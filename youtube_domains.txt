@@ -12,6 +12,7 @@ r1---sn-nv47lns6.googlevideo.com
 r1---sn-nv47znel.googlevideo.com
 r1---sn-tn.googlevideo.com
 r1.sn-nv47lns6.googlevideo.com
+r1.sn-nv47znel.googlevideo.com
 r1.sn-tn.googlevideo.com
 r2---sn-1gi7znes.googlevideo.com
 r2---sn-2ohpa5-5x.googlevideo.com
@@ -327,6 +328,7 @@ rr1.sn-5hneknes.gvt1.com
 rr1.sn-8p8v5a-up5l.googlevideo.com
 rr1.sn-aigl6nzl.googlevideo.com
 rr1.sn-aj4g55-5t.googlevideo.com
+rr1.sn-aj4g55-5t.gvt1.com
 rr1.sn-aj4g55-5v.googlevideo.com
 rr1.sn-aj4g55-5v.gvt1.com
 rr1.sn-aj4g55-5w.googlevideo.com
