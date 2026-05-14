@@ -23,6 +23,7 @@ r2.sn-tn.googlevideo.com
 r3---sn-nv47znee.googlevideo.com
 r3---sn-oj1gi5-5b.googlevideo.com
 r3---sn-tn.googlevideo.com
+r3.sn-nv47znee.googlevideo.com
 r3.sn-oj1gi5-5b.googlevideo.com
 r3.sn-tn.googlevideo.com
 redirector.googlevideo.com
