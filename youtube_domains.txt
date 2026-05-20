@@ -9,6 +9,9 @@ i9.ytimg.com
 img.youtube.com
 manifest.googlevideo.com
 r1---sn-5acuxaxjvh-up5d.googlevideo.com
+r1---sn-5acuxaxjvh-up5k.googlevideo.com
+r1---sn-5acuxaxjvh-up5r.googlevideo.com
+r1---sn-5acuxaxjvh-up5z.googlevideo.com
 r1---sn-hpa7zn66.googlevideo.com
 r1---sn-nv47lns6.googlevideo.com
 r1---sn-nv47znel.googlevideo.com
@@ -48,6 +51,8 @@ r3.sn-nv47znee.googlevideo.com
 r3.sn-nv47znel.googlevideo.com
 r3.sn-oj1gi5-5b.googlevideo.com
 r3.sn-tn.googlevideo.com
+r4---sn-5acuxaxjvh-up5z.googlevideo.com
+r4.sn-5acuxaxjvh-up5z.googlevideo.com
 r5---sn-nv47znee.googlevideo.com
 r5.sn-nv47znee.googlevideo.com
 redirector.googlevideo.com
