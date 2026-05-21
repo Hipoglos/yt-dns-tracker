@@ -231,6 +231,7 @@ rr1---sn-nv47znel.gvt1.com
 rr1---sn-oj5hn5-55.googlevideo.com
 rr1---sn-oj5hn5-5v.googlevideo.com
 rr1---sn-q4fl6nsk.googlevideo.com
+rr1---sn-q4fl6nz7.googlevideo.com
 rr1---sn-q4fzen7s.googlevideo.com
 rr1---sn-u14g55-5c.googlevideo.com
 rr1---sn-u14g55-c3.googlevideo.com
@@ -789,6 +790,7 @@ rr3---sn-2ohpa5-5c.googlevideo.com
 rr3---sn-2ohpa5-5x.googlevideo.com
 rr3---sn-4g5e6ns6.googlevideo.com
 rr3---sn-4g5e6ns7.googlevideo.com
+rr3---sn-4g5e6nsr.googlevideo.com
 rr3---sn-4g5e6nss.googlevideo.com
 rr3---sn-4g5e6nss.gvt1.com
 rr3---sn-4g5e6nsy.googlevideo.com
