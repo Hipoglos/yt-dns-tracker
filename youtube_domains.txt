@@ -181,6 +181,7 @@ rr1---sn-ab5sznzd.googlevideo.com
 rr1---sn-aigl6n6s.googlevideo.com
 rr1---sn-aigl6ned.gvt1.com
 rr1---sn-aigl6nz7.googlevideo.com
+rr1---sn-aigl6nze.googlevideo.com
 rr1---sn-aigl6nzl.googlevideo.com
 rr1---sn-aj4g55-5t.googlevideo.com
 rr1---sn-aj4g55-5t.gvt1.com
@@ -188,6 +189,7 @@ rr1---sn-aj4g55-5v.googlevideo.com
 rr1---sn-aj4g55-5v.gvt1.com
 rr1---sn-aj4g55-5w.googlevideo.com
 rr1---sn-aj4g55-5w.gvt1.com
+rr1---sn-ajaig5-5v.googlevideo.com
 rr1---sn-ajnv45-5i.googlevideo.com
 rr1---sn-ajnv45-5i.gvt1.com
 rr1---sn-ajnv4c-5w.googlevideo.com
