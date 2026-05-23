@@ -61,6 +61,7 @@ r5.sn-nv47znee.googlevideo.com
 redirector.googlevideo.com
 restrictmoderate.youtube.com
 rr1---sn-1giz7n7l.googlevideo.com
+rr1---sn-2oaig5-55.googlevideo.com
 rr1---sn-2ohpa5-55.googlevideo.com
 rr1---sn-2ohpa5-5c.googlevideo.com
 rr1---sn-2ohpa5-5x.googlevideo.com
@@ -186,8 +187,12 @@ rr1---sn-aigl6nz7.googlevideo.com
 rr1---sn-aigl6nze.googlevideo.com
 rr1---sn-aigl6nzl.googlevideo.com
 rr1---sn-aigl6nzs.googlevideo.com
+rr1---sn-aigzrn7s.googlevideo.com
 rr1---sn-aigzrn7z.googlevideo.com
+rr1---sn-aigzrnld.googlevideo.com
 rr1---sn-aigzrnse.googlevideo.com
+rr1---sn-aigzrnss.googlevideo.com
+rr1---sn-aigzrnsz.googlevideo.com
 rr1---sn-aj4g55-5t.googlevideo.com
 rr1---sn-aj4g55-5t.gvt1.com
 rr1---sn-aj4g55-5v.googlevideo.com
@@ -590,6 +595,7 @@ rr2---sn-aj4g55-5t.googlevideo.com
 rr2---sn-aj4g55-5v.googlevideo.com
 rr2---sn-aj4g55-5w.googlevideo.com
 rr2---sn-ajaig5-5a.googlevideo.com
+rr2---sn-ajaig5-5v.googlevideo.com
 rr2---sn-ajnv4c-5w.googlevideo.com
 rr2---sn-hpa7zn66.googlevideo.com
 rr2---sn-hpa7zn6d.googlevideo.com
@@ -822,6 +828,7 @@ rr2.sn-uhvcpaxoa-bg9e.googlevideo.com
 rr2.sn-uhvcpaxoa-bg9e.gvt1.com
 rr3---sn-1gi7znes.googlevideo.com
 rr3---sn-1giz7n7l.googlevideo.com
+rr3---sn-2oaig5-55.googlevideo.com
 rr3---sn-2ohpa5-55.googlevideo.com
 rr3---sn-2ohpa5-5c.googlevideo.com
 rr3---sn-2ohpa5-5x.googlevideo.com
@@ -949,6 +956,8 @@ rr3---sn-aigl6nz7.googlevideo.com
 rr3---sn-aigl6nze.googlevideo.com
 rr3---sn-aigl6nzr.googlevideo.com
 rr3---sn-aigzrn7e.googlevideo.com
+rr3---sn-aigzrn7l.googlevideo.com
+rr3---sn-aigzrn7s.googlevideo.com
 rr3---sn-aigzrnss.googlevideo.com
 rr3---sn-aigzrnsz.googlevideo.com
 rr3---sn-aigzrnze.googlevideo.com
@@ -1150,6 +1159,7 @@ rr3.sn-aigl6n6s.googlevideo.com
 rr3.sn-aigl6ned.googlevideo.com
 rr3.sn-aigl6nzr.googlevideo.com
 rr3.sn-aigzrn7e.googlevideo.com
+rr3.sn-aigzrn7s.googlevideo.com
 rr3.sn-aigzrnss.googlevideo.com
 rr3.sn-aj4g55-5t.googlevideo.com
 rr3.sn-aj4g55-5t.gvt1.com
@@ -1223,6 +1233,7 @@ rr3.sn-uhvcpaxoa-xpoe.googlevideo.com
 rr3.sn-uhvcpaxoa-xpoe.gvt1.com
 rr4---sn-1gi7znes.googlevideo.com
 rr4---sn-1giz7n7l.googlevideo.com
+rr4---sn-2oaig5-5n.googlevideo.com
 rr4---sn-2ohpa5-55.googlevideo.com
 rr4---sn-2ohpa5-5c.googlevideo.com
 rr4---sn-2ohpa5-5x.googlevideo.com
@@ -1348,6 +1359,7 @@ rr4---sn-aigl6nze.googlevideo.com
 rr4---sn-aigl6nzl.googlevideo.com
 rr4---sn-aigzrn7l.googlevideo.com
 rr4---sn-aigzrn7s.googlevideo.com
+rr4---sn-aigzrnld.googlevideo.com
 rr4---sn-aigzrnsz.googlevideo.com
 rr4---sn-aigzrnz7.googlevideo.com
 rr4---sn-aj4g55-5t.googlevideo.com
@@ -1524,9 +1536,13 @@ rr4.sn-5hnekne6.googlevideo.com
 rr4.sn-5hneknee.googlevideo.com
 rr4.sn-5hneknee.gvt1.com
 rr4.sn-5hneknes.googlevideo.com
+rr4.sn-aigl6ney.googlevideo.com
 rr4.sn-aigl6nsd.googlevideo.com
+rr4.sn-aigl6nz7.googlevideo.com
 rr4.sn-aigl6nzl.googlevideo.com
+rr4.sn-aigzrn7l.googlevideo.com
 rr4.sn-aigzrn7s.googlevideo.com
+rr4.sn-aigzrnld.googlevideo.com
 rr4.sn-aigzrnz7.googlevideo.com
 rr4.sn-aj4g55-5t.googlevideo.com
 rr4.sn-aj4g55-5t.gvt1.com
@@ -1679,6 +1695,7 @@ rr5---sn-5hne6nsr.googlevideo.com
 rr5---sn-5hne6nsr.gvt1.com
 rr5---sn-5hne6nsy.googlevideo.com
 rr5---sn-5hne6nsy.gvt1.com
+rr5---sn-5hne6nsz.googlevideo.com
 rr5---sn-5hne6nz6.googlevideo.com
 rr5---sn-5hne6nz6.gvt1.com
 rr5---sn-5hne6nzd.googlevideo.com
@@ -1867,6 +1884,7 @@ rr5.sn-5hne6nsk.gvt1.com
 rr5.sn-5hne6nsr.googlevideo.com
 rr5.sn-5hne6nsr.gvt1.com
 rr5.sn-5hne6nsy.googlevideo.com
+rr5.sn-5hne6nsz.googlevideo.com
 rr5.sn-5hne6nz6.googlevideo.com
 rr5.sn-5hne6nz6.gvt1.com
 rr5.sn-5hne6nzd.googlevideo.com
@@ -1890,6 +1908,7 @@ rr5.sn-5hneknee.googlevideo.com
 rr5.sn-5hneknee.gvt1.com
 rr5.sn-5hneknes.googlevideo.com
 rr5.sn-aigl6nzl.googlevideo.com
+rr5.sn-aigzrnss.googlevideo.com
 rr5.sn-aigzrnsz.googlevideo.com
 rr5.sn-aj4g55-5t.googlevideo.com
 rr5.sn-aj4g55-5v.googlevideo.com
