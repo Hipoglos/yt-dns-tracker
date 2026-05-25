@@ -1417,6 +1417,7 @@ rr4---sn-aj4g55-5v.gvt1.com
 rr4---sn-aj4g55-5w.googlevideo.com
 rr4---sn-ajaig5-50.googlevideo.com
 rr4---sn-ajaig5-5v.googlevideo.com
+rr4---sn-ajnv45-5i.c.youtube.com
 rr4---sn-ajnv45-5i.googlevideo.com
 rr4---sn-ajnv4c-5w.googlevideo.com
 rr4---sn-hpa7zn6d.googlevideo.com
