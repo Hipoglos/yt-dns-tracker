@@ -57,6 +57,7 @@ r3.sn-nv47znel.googlevideo.com
 r3.sn-oj1gi5-5b.googlevideo.com
 r3.sn-tn.googlevideo.com
 r4---sn-5acuxaxjvh-up5z.googlevideo.com
+r4---sn-nv47lnsy.googlevideo.com
 r4.sn-5acuxaxjvh-up5z.googlevideo.com
 r5---sn-nv47znee.googlevideo.com
 r5.sn-nv47znee.googlevideo.com
