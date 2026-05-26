@@ -431,6 +431,7 @@ rr1.sn-hpa7zns6.googlevideo.com
 rr1.sn-hpa7znsz.googlevideo.com
 rr1.sn-hpa7znzr.googlevideo.com
 rr1.sn-ntqe6n7k.googlevideo.com
+rr1.sn-ntqe6nes.googlevideo.com
 rr1.sn-nv47ln6e.c.youtube.com
 rr1.sn-nv47ln6e.googlevideo.com
 rr1.sn-nv47ln6e.gvt1.com
@@ -797,6 +798,7 @@ rr2.sn-5hneknes.googlevideo.com
 rr2.sn-8p8v5a-up5l.googlevideo.com
 rr2.sn-aigl6ney.googlevideo.com
 rr2.sn-aigl6nl7.googlevideo.com
+rr2.sn-aigl6ns6.googlevideo.com
 rr2.sn-aigl6nsr.googlevideo.com
 rr2.sn-aigl6nze.googlevideo.com
 rr2.sn-aigzrnld.googlevideo.com
@@ -817,6 +819,7 @@ rr2.sn-hpa7zn6z.googlevideo.com
 rr2.sn-hpa7zns6.googlevideo.com
 rr2.sn-hpa7znsz.googlevideo.com
 rr2.sn-hpa7znzr.googlevideo.com
+rr2.sn-ntqe6nee.googlevideo.com
 rr2.sn-nv47ln6e.c.youtube.com
 rr2.sn-nv47ln6e.googlevideo.com
 rr2.sn-nv47ln6e.gvt1.com
@@ -1216,6 +1219,7 @@ rr3.sn-aj4g55-5v.googlevideo.com
 rr3.sn-aj4g55-5w.googlevideo.com
 rr3.sn-aj4g55-5w.gvt1.com
 rr3.sn-ajaig5-50.googlevideo.com
+rr3.sn-ajaig5-5a.googlevideo.com
 rr3.sn-ajnv45-5i.googlevideo.com
 rr3.sn-ajnv45-5i.gvt1.com
 rr3.sn-ajnv4c-5w.googlevideo.com
@@ -1243,6 +1247,7 @@ rr3.sn-nv47lnsk.googlevideo.com
 rr3.sn-nv47lnsk.gvt1.com
 rr3.sn-nv47lnsr.c.youtube.com
 rr3.sn-nv47lnsr.googlevideo.com
+rr3.sn-nv47lnsy.c.youtube.com
 rr3.sn-nv47lnsy.googlevideo.com
 rr3.sn-nv47zn7r.googlevideo.com
 rr3.sn-nv47zn7r.gvt1.com
@@ -1603,6 +1608,7 @@ rr4.sn-aj4g55-5v.gvt1.com
 rr4.sn-aj4g55-5w.googlevideo.com
 rr4.sn-ajaig5-50.googlevideo.com
 rr4.sn-ajaig5-5v.googlevideo.com
+rr4.sn-ajnv45-5i.c.youtube.com
 rr4.sn-ajnv45-5i.googlevideo.com
 rr4.sn-ajnv4c-5w.googlevideo.com
 rr4.sn-hpa7zn6d.googlevideo.com
@@ -1974,6 +1980,7 @@ rr5.sn-aigl6nzl.googlevideo.com
 rr5.sn-aigl6nzr.googlevideo.com
 rr5.sn-aigl6nzs.googlevideo.com
 rr5.sn-aigzrn76.googlevideo.com
+rr5.sn-aigzrn7l.googlevideo.com
 rr5.sn-aigzrnss.googlevideo.com
 rr5.sn-aigzrnsz.googlevideo.com
 rr5.sn-aj4g55-5t.googlevideo.com
@@ -2021,7 +2028,9 @@ rr5.sn-oj1gi5-5b.googlevideo.com
 rr5.sn-oj5hn5-55.googlevideo.com
 rr5.sn-oj5hn5-55.gvt1.com
 rr5.sn-oj5hn5-5v.googlevideo.com
+rr5.sn-q4fl6nd6.googlevideo.com
 rr5.sn-q4flrn7r.googlevideo.com
+rr5.sn-q4flrne6.googlevideo.com
 rr5.sn-q4flrnel.googlevideo.com
 rr5.sn-q4fzen7s.googlevideo.com
 rr5.sn-u14g55-5c.googlevideo.com
