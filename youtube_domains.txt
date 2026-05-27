@@ -60,9 +60,11 @@ r4---sn-5acuxaxjvh-up5z.googlevideo.com
 r4---sn-nv47lnsy.googlevideo.com
 r4.sn-5acuxaxjvh-up5z.googlevideo.com
 r4.sn-nv47lnsy.googlevideo.com
+r5---sn-nv47lnsk.gvt1.com
 r5---sn-nv47znee.googlevideo.com
 r5.sn-nv47znee.googlevideo.com
 redirector.googlevideo.com
+redirector.gvt1.com
 restrictmoderate.youtube.com
 rr1---sn-1giz7n7l.googlevideo.com
 rr1---sn-2oaig5-55.googlevideo.com
@@ -1073,6 +1075,7 @@ rr3---sn-oj5hn5-55.gvt1.com
 rr3---sn-oj5hn5-5v.googlevideo.com
 rr3---sn-q4fl6n6s.googlevideo.com
 rr3---sn-q4fl6n6z.googlevideo.com
+rr3---sn-q4fl6nde.googlevideo.com
 rr3---sn-q4fl6nds.googlevideo.com
 rr3---sn-q4fl6ns7.googlevideo.com
 rr3---sn-q4fl6nsk.googlevideo.com
