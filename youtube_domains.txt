@@ -63,6 +63,7 @@ r4.sn-nv47lnsy.googlevideo.com
 r5---sn-nv47lnsk.gvt1.com
 r5---sn-nv47znee.googlevideo.com
 r5---sn-nv47znel.gvt1.com
+r5.sn-nv47lnsk.gvt1.com
 r5.sn-nv47znee.googlevideo.com
 redirector.googlevideo.com
 redirector.gvt1.com
@@ -480,6 +481,7 @@ rr1.sn-oj5hn5-5v.googlevideo.com
 rr1.sn-q4fl6nsk.googlevideo.com
 rr1.sn-q4fl6nz7.googlevideo.com
 rr1.sn-q4flrne7.googlevideo.com
+rr1.sn-q4flrnee.googlevideo.com
 rr1.sn-q4flrnl7.googlevideo.com
 rr1.sn-q4fzen7s.googlevideo.com
 rr1.sn-u14g55-5c.googlevideo.com
@@ -1561,6 +1563,7 @@ rr4.sn-4g5ednr7.gvt1.com
 rr4.sn-4g5ednre.googlevideo.com
 rr4.sn-4g5ednrl.googlevideo.com
 rr4.sn-4g5ednrs.googlevideo.com
+rr4.sn-4g5ednrs.gvt1.com
 rr4.sn-4g5ednrz.googlevideo.com
 rr4.sn-4g5edns6.googlevideo.com
 rr4.sn-4g5edns7.googlevideo.com
