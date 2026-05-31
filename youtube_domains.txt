@@ -27,6 +27,7 @@ r1.sn-nv47lns6.googlevideo.com
 r1.sn-nv47znel.googlevideo.com
 r1.sn-tn.googlevideo.com
 r2---sn-1gi7znes.googlevideo.com
+r2---sn-2oaig5-55.googlevideo.com
 r2---sn-2ohpa5-5x.googlevideo.com
 r2---sn-4g5edn6r.googlevideo.com
 r2---sn-5acuxaxjvh-up5k.googlevideo.com
