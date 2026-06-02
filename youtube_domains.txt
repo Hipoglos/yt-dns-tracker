@@ -755,6 +755,7 @@ rr2---sn-u14g55-5c.gvt1.com
 rr2---sn-u14g55-c3.googlevideo.com
 rr2---sn-u15hn5-59.googlevideo.com
 rr2---sn-u15hn5-59.gvt1.com
+rr2---sn-u15hn5-5t.googlevideo.com
 rr2---sn-u15hn5-5v.googlevideo.com
 rr2---sn-uhvcpaxoa-5hne.googlevideo.com
 rr2---sn-uhvcpaxoa-5hne.gvt1.com
@@ -971,6 +972,7 @@ rr2.sn-u14g55-5c.gvt1.com
 rr2.sn-u14g55-c3.googlevideo.com
 rr2.sn-u15hn5-59.googlevideo.com
 rr2.sn-u15hn5-59.gvt1.com
+rr2.sn-u15hn5-5t.googlevideo.com
 rr2.sn-u15hn5-5v.googlevideo.com
 rr2.sn-uhvcpaxoa-5hne.googlevideo.com
 rr2.sn-uhvcpaxoa-5hne.gvt1.com
