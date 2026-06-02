@@ -701,6 +701,7 @@ rr2---sn-ajaig5-5v.googlevideo.com
 rr2---sn-ajnv4c-5p.c.youtube.com
 rr2---sn-ajnv4c-5p.googlevideo.com
 rr2---sn-ajnv4c-5w.googlevideo.com
+rr2---sn-hgn7yn7l.googlevideo.com
 rr2---sn-hpa7zn66.googlevideo.com
 rr2---sn-hpa7zn6d.googlevideo.com
 rr2---sn-hpa7zn6s.googlevideo.com
@@ -2014,6 +2015,7 @@ rr5---sn-i5h7lner.googlevideo.com
 rr5---sn-i5h7lnls.googlevideo.com
 rr5---sn-ntq7yney.googlevideo.com
 rr5---sn-ntqe6nel.googlevideo.com
+rr5---sn-nv47ln6e.c.youtube.com
 rr5---sn-nv47ln6e.googlevideo.com
 rr5---sn-nv47ln6e.gvt1.com
 rr5---sn-nv47lnly.googlevideo.com
