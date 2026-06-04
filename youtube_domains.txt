@@ -66,6 +66,7 @@ r4---sn-5acuxaxjvh-up5z.googlevideo.com
 r4---sn-hpa7zn6d.googlevideo.com
 r4---sn-nv47lnsy.googlevideo.com
 r4.sn-5acuxaxjvh-up5z.googlevideo.com
+r4.sn-hpa7zn6d.googlevideo.com
 r4.sn-nv47lnsy.googlevideo.com
 r5---sn-nv47lnsk.gvt1.com
 r5---sn-nv47lnsr.googlevideo.com
