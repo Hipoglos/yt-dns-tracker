@@ -799,6 +799,7 @@ rr2---sn-q4fzen7s.googlevideo.com
 rr2---sn-u14g55-5c.googlevideo.com
 rr2---sn-u14g55-5c.gvt1.com
 rr2---sn-u14g55-c3.googlevideo.com
+rr2---sn-u15hn5-51.googlevideo.com
 rr2---sn-u15hn5-59.googlevideo.com
 rr2---sn-u15hn5-59.gvt1.com
 rr2---sn-u15hn5-5t.googlevideo.com
@@ -1655,6 +1656,7 @@ rr4---sn-aigzrnsz.googlevideo.com
 rr4---sn-aigzrnz7.googlevideo.com
 rr4---sn-aj4g55-5t.googlevideo.com
 rr4---sn-aj4g55-5t.gvt1.com
+rr4---sn-aj4g55-5v.googlevideo.com
 rr4---sn-aj4g55-5v.gvt1.com
 rr4---sn-aj4g55-5w.googlevideo.com
 rr4---sn-ajaig5-50.googlevideo.com
