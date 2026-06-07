@@ -23,6 +23,7 @@ sanalytics.disneyplus.com
 smetrics.help.disneyplus.com
 static-assets.bamgrid.com
 varnish02-c20-eze2-dss-vod-dssc-shield.tr.sa.prod.dssedge.com
+varnish02-c20-eze2-dss.vod-dssc-shield.tr.sa.prod.dssedge.com
 vod-akc-eu-west-1.media.dssott.com
 vod-akc-eu-west-1.media.dssott.com.akamaized.net
 vod-bgc-sa-east-1.media.dssott.com
