@@ -75,6 +75,7 @@ r5---sn-nv47lnsk.gvt1.com
 r5---sn-nv47lnsr.googlevideo.com
 r5---sn-nv47znee.googlevideo.com
 r5---sn-nv47znel.gvt1.com
+r5---sn-uhvcpaxoa-bg9e.gvt1.com
 r5.sn-nv47lnly.googlevideo.com
 r5.sn-nv47lnsk.gvt1.com
 r5.sn-nv47lnsr.googlevideo.com
