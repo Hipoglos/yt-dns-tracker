@@ -1,3 +1,16 @@
+cdn.registerdisney.go.com
+client-sdk-configs.bamgrid.com
+cnbl-cdn.bamgrid.com
 disney.api.edge.bamgrid.com
 disney.connections.edge.bamgrid.com
 disney.images.edge.bamgrid.com
+disney.playback.edge.bamgrid.com
+hiveplayer-static.bamgrid.com
+pcs.bamgrid.com
+playback-certs.bamgrid.com
+prod-ripcut-delivery.disney-plus.net
+prod-static.disney-plus.net
+static-assets.bamgrid.com
+vod-akc-eu-west-1.media.dssott.com
+vod-ftc-eu-west-1.media.dssott.com
+www.disneyplus.com
