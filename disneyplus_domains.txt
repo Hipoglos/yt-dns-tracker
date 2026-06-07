@@ -1,2 +1,3 @@
-# Disney+ DNS domains — auto-updated by disneyplus-dns-tracker
-# https://github.com/Hipoglos/yt-dns-tracker
+disney.api.edge.bamgrid.com
+disney.connections.edge.bamgrid.com
+disney.images.edge.bamgrid.com
