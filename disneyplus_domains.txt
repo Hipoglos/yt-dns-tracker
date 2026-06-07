@@ -8,8 +8,10 @@ disney.playback.edge.bamgrid.com
 hiveplayer-static.bamgrid.com
 pcs.bamgrid.com
 playback-certs.bamgrid.com
+prod-ripcut-delivery.bamgrid.com
 prod-ripcut-delivery.disney-plus.net
 prod-static.disney-plus.net
+sanalytics.disneyplus.com
 static-assets.bamgrid.com
 vod-akc-eu-west-1.media.dssott.com
 vod-ftc-eu-west-1.media.dssott.com
