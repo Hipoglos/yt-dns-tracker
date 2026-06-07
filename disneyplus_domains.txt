@@ -14,6 +14,8 @@ linear-akc-sa-east-2.media.dssott.com-v1.akamaized.net
 linear-ftc-sa-east-2.media.dssott.com
 live-akc-sa-east-2.media.dssott.com
 live-akc-sa-east-2.media.dssott.com-v1.akamaized.net
+live-ftc-na-east-1.media.dssott.com
+live-ftc-sa-east-2.media.dssott.com
 pcs.bamgrid.com
 playback-certs.bamgrid.com
 prod-ripcut-delivery.bamgrid.com
