@@ -6,6 +6,8 @@ disney.connections.edge.bamgrid.com
 disney.images.edge.bamgrid.com
 disney.playback.edge.bamgrid.com
 hiveplayer-static.bamgrid.com
+linear-ftc-sa-east-2.media.dssott.com
+live-akc-sa-east-2.media.dssott.com
 pcs.bamgrid.com
 playback-certs.bamgrid.com
 prod-ripcut-delivery.bamgrid.com
