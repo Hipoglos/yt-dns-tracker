@@ -1,0 +1,2 @@
+# Disney+ DNS domains — auto-updated by disneyplus-dns-tracker
+# https://github.com/Hipoglos/yt-dns-tracker
