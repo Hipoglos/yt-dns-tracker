@@ -1,4 +1,6 @@
 cdn.registerdisney.go.com
+cdn.registerdisney.go.com.edgekey.net
+cdn.vod-dssc-shield.tr.sa.prod.dssedge.com
 client-sdk-configs.bamgrid.com
 cnbl-cdn.bamgrid.com
 disney.api.edge.bamgrid.com
@@ -8,8 +10,10 @@ disney.playback.edge.bamgrid.com
 help.disneyplus.com
 hiveplayer-static.bamgrid.com
 linear-akc-sa-east-2.media.dssott.com
+linear-akc-sa-east-2.media.dssott.com-v1.akamaized.net
 linear-ftc-sa-east-2.media.dssott.com
 live-akc-sa-east-2.media.dssott.com
+live-akc-sa-east-2.media.dssott.com-v1.akamaized.net
 pcs.bamgrid.com
 playback-certs.bamgrid.com
 prod-ripcut-delivery.bamgrid.com
@@ -18,9 +22,13 @@ prod-static.disney-plus.net
 sanalytics.disneyplus.com
 smetrics.help.disneyplus.com
 static-assets.bamgrid.com
+varnish02-c20-eze2-dss-vod-dssc-shield.tr.sa.prod.dssedge.com
 vod-akc-eu-west-1.media.dssott.com
+vod-akc-eu-west-1.media.dssott.com.akamaized.net
 vod-bgc-sa-east-1.media.dssott.com
+vod-bgc-sa-east-1.media.dssott.com.akamaized.net
 vod-dsc-sa-east-2-eze2-dss.media.dssott.com
 vod-ftc-eu-west-1.media.dssott.com
 vod-ftc-sa-east-2.media.dssott.com
 www.disneyplus.com
+www.disneyplus.com.edgekey.net
